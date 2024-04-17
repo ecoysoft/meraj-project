@@ -85,6 +85,10 @@ header .navigation-bar {
   width: 80%;
   margin: 0 auto;
 }
+#nav-logo {
+  width: 15rem;
+  margin-top: 10px;
+}
 
 /* Drawer nav items animation part -----------> */
 
@@ -108,5 +112,8 @@ header .navigation-bar {
   #toggleDrawer {
     font-size: 20px;
     padding: 5px 8px;
+  }
+  #nav-logo {
+    width: 10rem;
   }
 }
