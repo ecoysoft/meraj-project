@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var drawerNavItem7 = document.getElementById('drawer-nav-ite7');
     var drawerNavItem8 = document.getElementById('drawer-nav-ite8');
 
-    var headerTitleData = document.getElementById("header-title-data");
+    // var headerTitleData = document.getElementById("header-title-data");
 
     toggleDrawer.onclick = function () {
         drawer.style.left = '0';
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         drawerNavItem8.style.transitionDelay = '1s';
 
 
-        headerTitleData.style.right = "-300%";
+        // headerTitleData.style.right = "-300%";
 
     };
 
@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', function () {
         drawerNavItem8.style.left = '-100%';
         drawerNavItem8.style.transitionDelay = '50ms';
 
-        headerTitleData.style.right = "0";
-        headerTitleData.style.transitionDelay = '300ms';
+        // headerTitleData.style.right = "0";
+        // headerTitleData.style.transitionDelay = '300ms';
     };
 });
 
