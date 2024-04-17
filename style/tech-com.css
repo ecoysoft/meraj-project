@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#banner-container #banner-container-video video {
+  width: 100%;
+  position: absolute;
+}
+#banner-container #items {
+  position: absolute;
+  left: 30%;
+}
+#banner-container #items {
+  padding-top: 3rem;
+}
+#banner-container #items .item .item-data {
+  position: absolute;
+}
+#banner-container #items .item {
+  width: 200px;
+  height: 200px;
+  margin-top: 2px;
+  background-color: white;
+}
+#banner-container #items .item img {
+  width: 200px;
+  height: 200px;
+  transition: 600ms;
+  position: relative;
+}
+#banner-container #items .item:hover img {
+  transform: scale(1);
+  margin-left: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 200px;
+}
+td {
+  font-size: 12px;
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 3px;
+}
